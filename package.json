@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "ncc build index.js",
-    "test": "INPUT_GITHUB_TOKEN=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 node dist/index.js"
+    "test": "INPUT_GITHUB_TOKEN=123456 node dist/index.js"
   },
   "repository": {
     "type": "git",
