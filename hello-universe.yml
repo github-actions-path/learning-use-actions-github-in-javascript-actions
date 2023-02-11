@@ -1,14 +1,14 @@
 name: Hello Universe
 on:
   push:
-    branches: [ main ]
+    branches: [ devops ]
   pull_request:
-    branches: [ main ]
+    branches: [ devops ]
   workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: YOUR_GITHUB_USER_NAME/YOUR_GITHUB_REPO_NAME@main
+      - uses: github-actions-path/learning-use-actions-github-in-javascript-actions@devops
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
