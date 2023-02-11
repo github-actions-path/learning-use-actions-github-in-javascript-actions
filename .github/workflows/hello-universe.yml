@@ -1,0 +1,14 @@
+name: Hello Universe
+on:
+  push:
+    branches: [ devops ]
+  pull_request:
+    branches: [ devops ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: github-actions-path/learning-use-actions-github-in-javascript-actions@devops
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
