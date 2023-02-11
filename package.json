@@ -1,5 +1,5 @@
 {
-  "name": "javascript-action-template",
+  "name": "learning-use-actions-github-in-javascript-actions",
   "version": "1.0.0",
   "description": "A template for creating an Action using JavaScript",
   "main": "index.js",
